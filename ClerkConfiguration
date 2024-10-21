@@ -1,0 +1,13 @@
+{
+  "admin": "https://t.me/+EYphDLOcApgyNDY6",
+  "branch": "Чебоксарский филиал",
+  "employeeMode": false,
+  "employee": null,
+  "year": null,
+  "group": null,
+  "tokens": [
+    "2f32c621-5cc7-45ae-87d4-c6f826b46230",
+    "https://raw.githubusercontent.com/shadowsystemss/Update/refs/heads/main/ClerkConfigurationEmployees",
+    "https://raw.githubusercontent.com/shadowsystemss/Update/refs/heads/main/ClerkConfigurationODL1_24"
+    ]
+}
