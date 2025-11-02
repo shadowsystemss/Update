@@ -1,0 +1,16 @@
+clear();
+Theme.ImageMask = "#A000";
+Theme.BackgroundColor = "#0B0F14";
+Theme.SurfaceColor = "#11161D";
+Theme.OverlayColor = "#33223355";
+Theme.BorderColor = "#1F2A35";
+Theme.TextColor = "#E2E8F0";
+Theme.TitleColor = "#9DC6FF";
+Theme.AccentColor = "#3B82F6";
+Theme.DisabledColor = "#60738A";
+Theme.ButtonTextColor = "#FFFFFF";
+Theme.ButtonBackgroundColor = "#2563EB";
+Theme.ButtonHoverBackgroundColor = "#3B82F6";
+Theme.ButtonDisabledBackgroundColor = "#1E293B";
+PersonalizationService.LoadTheme();
+log('Theme loaded');
