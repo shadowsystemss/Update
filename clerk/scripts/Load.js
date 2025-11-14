@@ -1,4 +1,4 @@
-// List a lessons in selected classroom
+// Load of selected profile
 // Edited 14.11.2025
 // Tested on version 1.1.5 (MyBad!)
 clear();
