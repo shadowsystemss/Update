@@ -10,6 +10,5 @@
     return;
   }
   await File.CopyAsync(file, path, cancel);
-  Theme.BackgroundImage = path;
   log("Скрипт по умолчанию выбран");
 })().catch(log);
