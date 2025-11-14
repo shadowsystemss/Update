@@ -1,6 +1,8 @@
-// Load of selected profile
-// Edited 02.11.2025
-// Tested on version 1.1.3 (CAN'T STOP)
+// List a lessons in selected classroom
+// Edited 14.11.2025
+// Tested on version 1.1.5 (MyBad!)
+clear();
+if (!(Clerk.Version == "1.1.3" || Clerk.Version == "1.1.4")) changeMode();
 const start = new Date("2025-09-01");
 const end = new Date("2025-12-30");
 const today = new Date();
