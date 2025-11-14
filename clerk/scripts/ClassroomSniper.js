@@ -1,5 +1,5 @@
 // List a lessons in selected classroom
-// Edited 02.11.2025
+// Edited 14.11.2025
 // Tested on version 1.1.3 (CAN'T STOP)
 Date.prototype.addDays = function (days) {
   var date = new Date(this.valueOf());
@@ -14,6 +14,7 @@ const date = new Date();
 date.setHours(3, 0, 0, 0);
 (async () => {
   const classroom = await prompt("Какой кабинет вас интересует?");
+  if (!classroom) return;
   const condition = (l) => l.Classroom == classroom;
   clear();
   log(date);
