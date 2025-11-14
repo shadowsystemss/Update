@@ -1,4 +1,4 @@
-// List a lessons in selected classroom
+// Load script from current repository
 // Edited 14.11.2025
 // Tested on version 1.1.5 (MyBad!)
 (async () => {
