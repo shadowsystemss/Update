@@ -1,7 +1,8 @@
 // List a lessons in selected classroom
-// Edited 14.11.2025
-// Tested on version 1.1.5 (MyBad!)
-if (!(Clerk.Version == "1.1.3" || Clerk.Version == "1.1.4")) changeMode();
+// Edited 05.12.2025
+// Tested on version 1.1.6 (GameOver)
+if (Clerk.Version == "1.1.5") changeMode();
+if (Clerk.Version == "1.1.6") Terminal.ShowOutput();
 Date.prototype.addDays = function (days) {
   var date = new Date(this.valueOf());
   date.setDate(date.getDate() + days);

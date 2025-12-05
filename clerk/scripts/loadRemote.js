@@ -1,6 +1,6 @@
 // Load script from current repository
-// Edited 14.11.2025
-// Tested on version 1.1.5 (MyBad!)
+// Edited 05.12.2025
+// Tested on version 1.1.6 (GameOver)
 (async () => {
   clear();
   let response = await fetch(
@@ -16,5 +16,6 @@
   selection = await select(keys);
   if (selection == null) return;
   response = await fetch(dict[selection]);
-  setCode(response);
+  if (Clerk.Version == "1.1.5") setCode(response);
+  else Terminal.SetCode(response);
 })().catch(log);

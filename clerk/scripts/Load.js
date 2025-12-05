@@ -1,8 +1,9 @@
 // Load of selected profile
-// Edited 14.11.2025
-// Tested on version 1.1.5 (MyBad!)
+// Edited 05.12.2025
+// Tested on version 1.1.6 (GameOver)
 clear();
-if (!(Clerk.Version == "1.1.3" || Clerk.Version == "1.1.4")) changeMode();
+if (Clerk.Version == "1.1.5") changeMode();
+if (Clerk.Version == "1.1.6") Terminal.ShowOutput();
 const start = new Date("2025-09-01");
 const end = new Date("2025-12-30");
 const today = new Date();
